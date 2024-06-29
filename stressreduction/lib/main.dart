@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'mindfulness_page.dart';
+import 'mindfulness_exercises.dart';
 import 'stress_reduction_page.dart';
 import 'affirmations_page.dart';
 
@@ -96,7 +96,7 @@ class HomePage extends StatelessWidget {
                           () {
                             Navigator.push(
                               context,
-                              MaterialPageRoute(builder: (context) => MindfulnessPage()),
+                              MaterialPageRoute(builder: (context) => MindfulnessExercisesPage()),
                             );
                           },
                         ),
