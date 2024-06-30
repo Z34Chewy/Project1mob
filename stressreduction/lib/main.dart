@@ -17,7 +17,7 @@ class MindfulnessApp extends StatelessWidget {
           primarySwatch: Colors.blueGrey,
         ).copyWith(
           secondary: const Color(0xFFB2DFDB), // Light teal
-          background: const Color(0xFFF5F5F5), // Light grey
+          surface: const Color(0xFFF5F5F5), // Light grey
         ),
         textTheme: TextTheme(
           bodyLarge: const TextStyle(color: Colors.black87),
