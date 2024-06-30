@@ -126,7 +126,7 @@ class MindfulnessExercisesPage extends StatelessWidget {
                         onTap: () async {
                           final url = Uri.parse(exercises[index].youtubeLink);
                           if (await canLaunchUrl(url)) {
-                            await launchUrl(url, mode: LaunchMode.externalApplication);
+                            await launchUrl(url);
                           } else {
                             throw 'Could not launch $url';
                           }
