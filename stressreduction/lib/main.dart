@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'mindfulness_exercises.dart';
-import 'stress_reduction_page.dart';
 import 'affirmations_page.dart';
+import 'stress_reduction_techniques_screen.dart';
+
 
 void main() {
   runApp(MindfulnessApp());
@@ -113,7 +114,7 @@ class HomePage extends StatelessWidget {
                           () {
                             Navigator.push(
                               context,
-                              MaterialPageRoute(builder: (context) => StressReductionPage()),
+                              MaterialPageRoute(builder: (context) => StressReductionTechniquesScreen()),
                             );
                           },
                         ),
