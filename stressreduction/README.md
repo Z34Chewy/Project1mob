@@ -43,3 +43,7 @@ Mindfulness and Stress Reduction is an app designed to help users practice mindf
 
 - Use the circular buttons on the home screen to navigate to different sections of the app.
 - Each section provides relevant content and exercises to help you with mindfulness and stress reduction.
+
+### YouTube Link
+
+- https://youtu.be/-rQm8Dz2gl0?si=hUKBKUcbKf9znpkA
